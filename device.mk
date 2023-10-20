@@ -16,6 +16,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
+TARGET_BOARD_PLATFORM := mt6833
+PRODUCT_USES_QCOM_HARDWARE := false
+
 PRODUCT_PACKAGES += \
     android.hardware.boot-service.default \
     android.hardware.boot-service.default_recovery
