@@ -368,7 +368,9 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/mediatek \
-    hardware/xiaomi
+    hardware/xiaomi \
+    packages/modules/Bluetooth/android/app \
+    $(DEVICE_PATH)
 
 # Speed profile services and wifi-service to reduce RAM and storage
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
